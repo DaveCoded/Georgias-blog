@@ -8,11 +8,23 @@
   src: url('fonts/FuturaBTLight.ttf')  format('truetype');
 }
 
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px 80px;
+  margin: 10px 80px;
 }
 
 .header__nav-icon {}
@@ -23,18 +35,30 @@
 }
 
 .header__title--heading {
+  margin-bottom: 10px;
+
   font-family: 'leafy';
+  font-size: 2.8em;
+  font-weight: 400;
+  letter-spacing: .11em;
 }
 
 .header__title--tagline {
   font-family: 'futura-light';
 }
 
-.season-display {}
+.season-display {
+  font-family: 'leafy';
+  letter-spacing: .11em;
+}
 
-.season-display__number {}
+.season-display__number {
+  font-weight: 400;
+}
 
-.season-display__title {}
+.season-display__title {
+  font-size: 1.5em;
+}
 
 .header__nav-icon--bar {
     width: 35px;
