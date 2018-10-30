@@ -89,3 +89,14 @@ body {
   width: 50%;
   height: 200vh;
 }
+
+.main-article {
+  display: flex;
+  justify-content: center;
+}
+
+.main-article__image {
+  position: fixed;
+  width: 36%;
+  margin-top: 34px;
+}
