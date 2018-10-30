@@ -93,10 +93,11 @@ body {
 .header__nav-icon {}
 
 .header__nav-icon--bar {
-  width: 35px;
-  height: 5px;
+  width: 46px;
+  height: 6px;
   background-color: var(--purple);
-  margin: 6px 0;
+  margin: 5px 0;
+  border-radius: 5px;
 }
 
 /* =================================================
