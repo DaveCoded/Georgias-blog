@@ -1,20 +1,26 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin: 20px 50px;
+  align-items: center;
+  margin: 30px 80px;
 }
 
 .header__nav-icon {}
 
 .header__title {
   text-align: center;
+  text-transform: uppercase;
 }
 
 .header__title--heading {}
 
 .header__title--tagline {}
 
-.season-toggle {}
+.season-display {}
+
+.season-display__number {}
+
+.season-display__title {}
 
 .header__nav-icon--bar {
     width: 35px;
