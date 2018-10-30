@@ -1,4 +1,15 @@
 /* =================================================
+   ============== COLOUR VARIABLES =================
+   ================================================= */
+
+:root {
+  --purple: #5041bc;
+  --pink: #e54451;
+  --orange: #dd693f;
+  --dark-blue: #303744;
+}
+
+/* =================================================
    ==================== FONTS ======================
    ================================================= */
 
@@ -41,17 +52,17 @@ body {
   background-image: url('img/post-background.jpg');
 }
 
-.header__nav-icon {}
 
 .header__title {
   text-align: center;
   text-transform: uppercase;
   margin-right: -45px;
+  color: var(--purple);
 }
 
 .header__title--heading {
   margin-bottom: 10px;
-
+  
   font-family: 'leafy';
   font-size: 2.7em;
   font-weight: 400;
@@ -68,6 +79,7 @@ body {
   font-family: 'leafy';
   font-size: 0.85em;
   letter-spacing: .11em;
+  color: var(--purple);
 }
 
 .season-display__number {
@@ -78,16 +90,18 @@ body {
   font-size: 1.5em;
 }
 
+.header__nav-icon {}
+
 .header__nav-icon--bar {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
+  width: 35px;
+  height: 5px;
+  background-color: var(--purple);
+  margin: 6px 0;
 }
 
 /* =================================================
-   ================= MAIN AREA LAYOUT ==============
-   ================================================= */
+================= MAIN AREA LAYOUT ==============
+================================================= */
 
 .content-area {
   padding-top: 100px;
