@@ -21,10 +21,15 @@ body {
 }
 
 .header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 80px;
+  margin: 10px 0;
+  padding: 0 106px;
 }
 
 .header__nav-icon {}
@@ -32,7 +37,6 @@ body {
 .header__title {
   text-align: center;
   text-transform: uppercase;
-  margin-left: 100px;
 }
 
 .header__title--heading {
@@ -72,31 +76,34 @@ body {
 }
 
 .content-area {
-  padding-top: 12px;
-  display: flex;
+  padding-top: 100px;
 }
 
 .left-column {
   background-color: indianred;
   float: left;
-  width: 50%;
+  width: 43%;
   height: 200vh;
 }
 
 .right-column {
   background-color: burlywood;
   float: right;
-  width: 50%;
+  width: 57%;
   height: 200vh;
 }
 
 .main-article {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
-.main-article__image {
+.image-box {
   position: fixed;
   width: 36%;
   margin-top: 34px;
+}
+
+.main-article__image {
+  width: 100%;
 }
