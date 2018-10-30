@@ -153,6 +153,17 @@ body {
 
 .secondary-article__content {}
 
-.secondary-article__heading {}
+.secondary-article__heading {
+  font-family: 'leafy';
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: .11em;
+  margin-bottom: 20px;
+}
 
-.secondary-article__excerpt {}
+.secondary-article__excerpt {
+  font-family: 'futura-light';
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
