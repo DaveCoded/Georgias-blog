@@ -96,8 +96,12 @@ body {
   width: 46px;
   height: 6px;
   background-color: var(--purple);
-  margin: 5px 0;
+  margin: 4px 0;
   border-radius: 5px;
+}
+
+.header__nav-icon:hover .header__nav-icon--bar {
+  margin: 6px 0;
 }
 
 /* =================================================
