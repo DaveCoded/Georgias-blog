@@ -74,19 +74,18 @@ body {
 .content-area {
   padding-top: 12px;
   display: flex;
-  justify-content: center;
 }
 
 .left-column {
   background-color: indianred;
   float: left;
-  width: 45%;
+  width: 50%;
   height: 200vh;
 }
 
 .right-column {
   background-color: burlywood;
   float: right;
-  width: 45%;
+  width: 50%;
   height: 200vh;
 }
