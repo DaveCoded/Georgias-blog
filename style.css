@@ -128,9 +128,24 @@ body {
    ============= SECONDARY ARTICLES ================
    ================================================= */
 
-.secondary-article {}
+.secondary-articles-section {
+  margin-top: 34px;
+  margin-left: 30px;
+  width: 80%;
+}
 
-.thumbnail {}
+.secondary-article {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.thumbnail {
+  margin-right: 30px;
+}
+
+.thumbnail__image {
+  height: 100%;
+}
 
 .secondary-article__content {}
 
