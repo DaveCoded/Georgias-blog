@@ -45,10 +45,13 @@ body {
 
 .header__title--tagline {
   font-family: 'futura-light';
+  letter-spacing: .1em;
+  font-size: 0.9em;
 }
 
 .season-display {
   font-family: 'leafy';
+  font-size: 0.85em;
   letter-spacing: .11em;
 }
 
@@ -65,4 +68,22 @@ body {
     height: 5px;
     background-color: black;
     margin: 6px 0;
+}
+
+.content-area {
+  padding-top: 12px;
+}
+
+.left-column {
+  background-color: indianred;
+  float: left;
+  width: 50%;
+  height: 200vh;
+}
+
+.right-column {
+  background-color: burlywood;
+  float: right;
+  width: 50%;
+  height: 200vh;
 }
