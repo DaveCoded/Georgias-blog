@@ -128,4 +128,12 @@ body {
    ============= SECONDARY ARTICLES ================
    ================================================= */
 
-   
+.secondary-article {}
+
+.thumbnail {}
+
+.secondary-article__content {}
+
+.secondary-article__heading {}
+
+.secondary-article__excerpt {}
