@@ -51,7 +51,7 @@ body {
   margin-bottom: 10px;
 
   font-family: 'leafy';
-  font-size: 2.8em;
+  font-size: 2.7em;
   font-weight: 400;
   letter-spacing: .11em;
 }
@@ -137,14 +137,18 @@ body {
 .secondary-article {
   display: flex;
   margin-bottom: 30px;
+  height: 162px;
 }
 
 .thumbnail {
   margin-right: 30px;
+  overflow: hidden;
+  width: 123%;
 }
 
 .thumbnail__image {
-  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 .secondary-article__content {}
