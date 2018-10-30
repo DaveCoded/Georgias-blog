@@ -22,6 +22,7 @@
 
 body {
   box-sizing: border-box;
+  background-image: url('img/home-background.jpg');
 }
 
 /* =================================================
@@ -36,8 +37,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px 0;
-  padding: 0 106px;
+  padding: 10px 106px 24px;
+  background-image: url('img/post-background.jpg');
 }
 
 .header__nav-icon {}
@@ -45,6 +46,7 @@ body {
 .header__title {
   text-align: center;
   text-transform: uppercase;
+  margin-right: -45px;
 }
 
 .header__title--heading {
@@ -92,17 +94,17 @@ body {
 }
 
 .left-column {
-  background-color: indianred;
+  /* background-color: indianred; */
   float: left;
-  width: 43%;
-  height: 200vh;
+  width: 45%;
+  height: 500vh;
 }
 
 .right-column {
-  background-color: burlywood;
+  /* background-color: burlywood; */
   float: right;
-  width: 57%;
-  height: 200vh;
+  width: 55%;
+  height: 500vh;
 }
 
 /* =================================================
@@ -116,8 +118,10 @@ body {
 
 .image-box {
   position: fixed;
-  width: 36%;
   margin-top: 34px;
+  width: 38%;
+  height: calc(100vh - 170px);
+  overflow: hidden;
 }
 
 .main-article__image {
@@ -131,23 +135,24 @@ body {
 .secondary-articles-section {
   margin-top: 34px;
   margin-left: 30px;
-  width: 80%;
+  width: 86%;
 }
 
 .secondary-article {
   display: flex;
   margin-bottom: 30px;
-  height: 162px;
+  height: 190px;
 }
 
 .thumbnail {
   margin-right: 30px;
   overflow: hidden;
-  width: 123%;
+  width: 88%;
 }
 
 .thumbnail__image {
   width: 100%;
+  height: 134%;
   object-fit: cover;
 }
 
@@ -163,7 +168,7 @@ body {
 
 .secondary-article__excerpt {
   font-family: 'futura-light';
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   letter-spacing: .1em;
 }
