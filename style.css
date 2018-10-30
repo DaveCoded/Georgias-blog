@@ -1,3 +1,13 @@
+@font-face {
+  font-family: leafy;
+  src: url('fonts/leafy.otf')  format('opentype');
+}
+
+@font-face {
+  font-family: futura-light;
+  src: url('fonts/FuturaBTLight.ttf')  format('truetype');
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -12,9 +22,13 @@
   text-transform: uppercase;
 }
 
-.header__title--heading {}
+.header__title--heading {
+  font-family: 'leafy';
+}
 
-.header__title--tagline {}
+.header__title--tagline {
+  font-family: 'futura-light';
+}
 
 .season-display {}
 
