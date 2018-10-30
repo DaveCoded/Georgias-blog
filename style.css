@@ -1,11 +1,24 @@
-.header {}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+}
 
 .header__nav-icon {}
 
-.header__title {}
+.header__title {
+  text-align: center;
+}
 
 .header__title--heading {}
 
 .header__title--tagline {}
 
 .season-toggle {}
+
+.header__nav-icon--bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
