@@ -91,6 +91,20 @@ body {
   font-size: 1.5em;
 }
 
+.navigation {}
+
+.crest {
+  width: 100px;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+.nav-toggle:checked ~  {
+  
+}
+
 .header__nav-icon {
   cursor: pointer;
 }
