@@ -34,7 +34,7 @@
 body {
   box-sizing: border-box;
   background-image: url('img/home-background.jpg');
-  background-repeat: round;
+  background-size: auto 100%;
 }
 
 /* =================================================
@@ -150,17 +150,34 @@ body {
 
 .image-caption {
   z-index: 20;
-  height: 27%;
+  height: 30%;
   width: 100%;
-  background-color: green;
+  background-color: rgba(250,252,236,0.8);
   position: absolute;
   bottom: 0;
   left: 0;
 }
 
-.image-caption__title {}
+.image-caption__box {
+  width: 70%;
+  padding-left: 20px;
+  padding-top: 8px;
+}
 
-.image-caption__excerpt {}
+.image-caption__title {
+  font-family: 'leafy';
+  font-size: 2.5em;
+  font-weight: 400;
+  letter-spacing: .11em;
+  margin-bottom: 15px;
+}
+
+.image-caption__excerpt {
+  font-family: 'futura-light';
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: .1em;
+}
 
 /* =================================================
    ============= SECONDARY ARTICLES ================
