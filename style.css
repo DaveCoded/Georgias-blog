@@ -34,6 +34,7 @@
 body {
   box-sizing: border-box;
   background-image: url('img/home-background.jpg');
+  background-repeat: round;
 }
 
 /* =================================================
@@ -90,7 +91,9 @@ body {
   font-size: 1.5em;
 }
 
-.header__nav-icon {}
+.header__nav-icon {
+  cursor: pointer;
+}
 
 .header__nav-icon--bar {
   width: 46px;
@@ -116,14 +119,12 @@ body {
   /* background-color: indianred; */
   float: left;
   width: 45%;
-  height: 500vh;
 }
 
 .right-column {
   /* background-color: burlywood; */
   float: right;
   width: 55%;
-  height: 500vh;
 }
 
 /* =================================================
