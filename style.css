@@ -49,8 +49,9 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 106px 24px;
+  padding: 8px 106px 20px;
   background-image: url('img/post-background.jpg');
+  box-shadow: 0 3px 16px rgba(0,0,0,0.2);
 }
 
 
@@ -63,7 +64,6 @@ body {
 
 .header__title--heading {
   margin-bottom: 10px;
-  
   font-family: 'leafy';
   font-size: 2.7em;
   font-weight: 400;
@@ -99,13 +99,15 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  box-shadow: 2px 0 18px rgba(0,0,0,0.2);
   transform: translateX(-380px);
   transition: all .3s ease-in;
 }
 
 .crest {
   display: block;
-  margin: 40px auto;
+  margin: 20px auto;
+  width: 46%;
 }
 
 .nav-toggle {
@@ -151,13 +153,42 @@ body {
   outline: none;
 }
 
-.seasons {}
+.list-container {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 
-.seasons__item {}
+.seasons {
+  list-style: none;
+  margin-top: 40px;
+  line-height: 56px;
+}
 
-.pages-list {}
+.seasons__item {
+  text-align: center;
+  color: var(--purple);
+  font-family: 'leafy';
+  font-size: 2.7em;
+  font-weight: 400;
+  letter-spacing: .11em;
+}
 
-.page {}
+.pages-list {
+  list-style: none;
+}
+
+.page {
+  font-family: 'futura-light';
+  color: var(--pink);
+  letter-spacing: 0.2em;
+  font-size: 1.6rem;
+  text-transform: lowercase;
+  text-align: center;
+}
 
 /* =================================================
 ================= MAIN AREA LAYOUT ==============
