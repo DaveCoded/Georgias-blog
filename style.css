@@ -105,7 +105,7 @@ body {
 
 .crest {
   display: block;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 
 .nav-toggle {
@@ -139,11 +139,25 @@ body {
   font-family: 'futura-light';
   font-weight: 600;
   color: var(--purple);
+  transition: all .2s;
+}
+
+.close-nav:hover {
+  transform: scale(1.2);
+  color: #999;
 }
 
 .close-nav:focus {
   outline: none;
 }
+
+.seasons {}
+
+.seasons__item {}
+
+.pages-list {}
+
+.page {}
 
 /* =================================================
 ================= MAIN AREA LAYOUT ==============
