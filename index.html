@@ -11,7 +11,7 @@
 
   <header class="header">
     <input type="checkbox" class="nav-toggle" id="nav-toggle">
-    <label for="nav-toggle">
+    <label aria-label="Open navigation sidebar" for="nav-toggle">
       <span class="header__nav-icon">
         <div class="header__nav-icon--bar"></div>
         <div class="header__nav-icon--bar"></div>
@@ -20,7 +20,10 @@
     </label>
     
     <nav class="navigation">
-        <img src="img/small-crest.png" alt="Logo" class="crest">
+      <button aria-label="Close navigation sidebar" class="close-nav">
+        &times;
+      </button>
+      <img src="img/small-crest.png" alt="Logo" class="crest">
     </nav>
 
         <div class="header__title">
