@@ -52,6 +52,7 @@ body {
   padding: 8px 106px 20px;
   background-image: url('img/post-background.jpg');
   box-shadow: 0 3px 16px rgba(0,0,0,0.2);
+  z-index: 2000;
 }
 
 
@@ -92,7 +93,7 @@ body {
 }
 
 .navigation {
-  background-color: #fff;
+  background-color: rgba(256,255,246);
   height: 100vh;
   width: 25%;
   z-index: 4000;
@@ -228,6 +229,12 @@ body {
   height: calc(100vh - 170px);
   overflow: hidden;
   z-index: 10;
+  transition: all .2s
+}
+
+.image-box:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, .3);
 }
 
 .main-article__image {
@@ -280,6 +287,12 @@ body {
   display: flex;
   margin-bottom: 30px;
   height: 190px;
+  transition: all .2s;
+}
+
+article.secondary-article:hover {
+  transform: scale(1.01);
+  box-shadow: 3px 3px 14px rgba(0, 0, 0, .3);
 }
 
 .thumbnail {
