@@ -112,9 +112,9 @@ body {
   display: none;
 }
 
-.nav-toggle:checked ~ .navigation {
+/* .nav-toggle:checked ~ .navigation {
   transform: translateX(0);
-}
+} */
 
 .header__nav-icon {
   cursor: pointer;
