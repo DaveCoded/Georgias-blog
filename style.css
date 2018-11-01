@@ -112,10 +112,6 @@ body {
   display: none;
 }
 
-/* .nav-toggle:checked ~ .navigation {
-  transform: translateX(0);
-} */
-
 .header__nav-icon {
   cursor: pointer;
 }
@@ -130,6 +126,23 @@ body {
 
 .header__nav-icon:hover .header__nav-icon--bar {
   margin: 6px 0;
+}
+
+.close-nav {
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  background: none;
+  border: none;
+  font-size: 35px;
+  font-family: 'futura-light';
+  font-weight: 600;
+  color: var(--purple);
+}
+
+.close-nav:focus {
+  outline: none;
 }
 
 /* =================================================
