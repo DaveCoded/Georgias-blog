@@ -33,10 +33,6 @@ function hideNav() {
 
 // ============ HEADER COLOUR CHANGES ==============  
 
-// hamburgerDivs.forEach(function(div){
-// 	div.style.backgroundColor = "red";
-// });
-
 function scrollCondition() {
   if (window.scrollY >= 1800) {
     colour = red;

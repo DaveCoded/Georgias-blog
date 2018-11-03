@@ -31,6 +31,10 @@
 	box-sizing: inherit;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   box-sizing: border-box;
   background-image: url('img/home-background-SMALL.jpg');
@@ -49,7 +53,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 106px 20px;
+  padding: 1.28rem 16.96rem 3.2rem;
   background-image: url('img/post-background.jpg');
   box-shadow: 0 3px 16px rgba(0,0,0,0.2);
   z-index: 2000;
@@ -228,10 +232,16 @@ body {
   position: fixed;
   margin-top: 34px;
   width: 38%;
-  height: calc(100vh - 170px);
+  height: 555px;
   overflow: hidden;
   z-index: 10;
   transition: all .2s
+}
+
+@media (max-width: 1530px) {
+  .image-box {
+    height: 500px;
+  }
 }
 
 .image-box:hover {
@@ -241,6 +251,7 @@ body {
 
 .main-article__image {
   width: 100%;
+  height: auto;
   z-index: 10;
 }
 
