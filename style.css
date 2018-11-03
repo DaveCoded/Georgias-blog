@@ -228,6 +228,12 @@ body {
   z-index: -1;
 }
 
+@media (max-width: 1500px) {
+  .main-article {
+    justify-content: center;
+  }
+}
+
 .image-box {
   position: fixed;
   margin-top: 3.4rem;
@@ -238,11 +244,12 @@ body {
   transition: all .2s
 }
 
-/* @media (max-width: 1530px) {
+@media (max-width: 1500px) {
   .image-box {
-    height: 500px;
+    height: 52rem;
+    margin-top: 6rem;
   }
-} */
+}
 
 .image-box:hover {
   transform: scale(1.01);
@@ -265,8 +272,14 @@ body {
   left: 0;
 }
 
+@media (max-width: 1500px) {
+  .image-caption {
+    height: 28%;
+  }
+}
+
 .image-caption__box {
-  width: 70%;
+  width: 100%;
   padding-left: 2rem;
   padding-top: .8rem;
 }
