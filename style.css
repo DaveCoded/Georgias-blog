@@ -126,7 +126,7 @@ body {
   background-color: var(--purple);
   margin: 4px 0;
   border-radius: 5px;
-  transition: all .8s ease;
+  transition: background-color .8s ease;
 }
 
 .header__nav-icon:hover .header__nav-icon--bar {
