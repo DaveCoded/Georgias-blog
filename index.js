@@ -11,9 +11,9 @@ const currentSeason = document.querySelector(".season-display");
 //================== COLOURS ==================
 
 const orange = "#dd693f";
-const pink = "#e54451";
+const pink = "#ff11db";
 const darkBlue = "#303744";
-const yellow = "#d9e126";
+const yellow = "#ffe81e";
 const red = "#d9455c";
 const purple = "#5041bc";
 let colour = purple;

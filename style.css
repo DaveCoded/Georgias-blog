@@ -61,6 +61,7 @@ body {
   text-transform: uppercase;
   margin-right: -45px;
   color: var(--purple);
+  transition: all .8s ease;
 }
 
 .header__title--heading {
@@ -82,6 +83,7 @@ body {
   font-size: 0.85em;
   letter-spacing: .11em;
   color: var(--purple);
+  transition: all .8s ease;
 }
 
 .season-display__number {
@@ -125,6 +127,7 @@ body {
   background-color: var(--purple);
   margin: 4px 0;
   border-radius: 5px;
+  transition: all .8s ease;
 }
 
 .header__nav-icon:hover .header__nav-icon--bar {
