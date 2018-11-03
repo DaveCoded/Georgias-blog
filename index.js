@@ -38,8 +38,16 @@ function hideNav() {
 // });
 
 function scrollCondition() {
-  if(window.scrollY >= 300){
+  if (window.scrollY >= 1800) {
+    colour = red;
+  } else if (window.scrollY >= 1300) {
     colour = pink;
+  } else if (window.scrollY >= 800) {
+    colour = yellow;
+  } else if (window.scrollY >= 300) {
+    colour = orange;
+  } else {
+    colour = purple;
   }
   changeColour(colour);
 }
@@ -52,7 +60,7 @@ function changeColour(colour) {
 
 function changeHamburger(colour) {
   hamburgerDivs.forEach(function(div){
-    div.style.backgroundColor = colour; // THIS WORKS ON SCROLL. HOW DO I PASS THE COLOUR VARIABLE TO THIS FUNCTION?!?!
+    div.style.backgroundColor = colour;
   })
 }
 
