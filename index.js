@@ -28,7 +28,7 @@ function showNav() {
 }
 
 function hideNav() {
-  navigation.style.transform = "translateX(-450px)";
+  navigation.style.transform = "translateX(-600px)";
 }
 
 // ============ HEADER COLOUR CHANGES ==============  
