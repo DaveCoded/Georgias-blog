@@ -165,6 +165,38 @@ body {
   }
 }
 
+.nav-toggle {
+  display: none;
+}
+
+.header__nav-icon {
+  cursor: pointer;
+}
+
+.header__nav-icon--bar {
+  width: 4.6rem;
+  height: .6rem;
+  background-color: var(--purple);
+  margin: .4rem 0;
+  border-radius: .5rem;
+  transition: background-color .8s ease;
+}
+
+@media (max-width: 500px) {
+  .header__nav-icon--bar {
+    width: 3rem;
+    height: .4rem;
+  }
+}
+
+.header__nav-icon:hover .header__nav-icon--bar {
+  margin: .6rem 0;
+}
+
+/* =================================================
+   ================== NAVIGATION ===================
+   ================================================= */
+
 .navigation {
   background-color: rgb(256,255,246);
   height: 100vh;
@@ -199,34 +231,6 @@ body {
 .crest {
   display: block;
   margin: 3.2rem auto;
-}
-
-.nav-toggle {
-  display: none;
-}
-
-.header__nav-icon {
-  cursor: pointer;
-}
-
-.header__nav-icon--bar {
-  width: 4.6rem;
-  height: .6rem;
-  background-color: var(--purple);
-  margin: .4rem 0;
-  border-radius: .5rem;
-  transition: background-color .8s ease;
-}
-
-@media (max-width: 500px) {
-  .header__nav-icon--bar {
-    width: 3rem;
-    height: .4rem;
-  }
-}
-
-.header__nav-icon:hover .header__nav-icon--bar {
-  margin: .6rem 0;
 }
 
 .close-nav {
