@@ -15,12 +15,12 @@
 
 @font-face {
   font-family: leafy;
-  src: url('fonts/leafy.otf')  format('opentype');
+  src: url('../fonts/leafy.woff')  format('woff');
 }
 
 @font-face {
   font-family: futura-light;
-  src: url('fonts/FuturaBTLight.ttf')  format('truetype');
+  src: url('../fonts/FuturaBTLight.ttf')  format('truetype');
 }
 
 *,
