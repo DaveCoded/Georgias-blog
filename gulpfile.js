@@ -1,8 +1,11 @@
-var gulp = require('gulp');
+const gulp = require('gulp');
+const autoprefixer = require('gulp-autoprefixer');
 
-gulp.task('default', defaultTask);
-
-function defaultTask(done) {
-  // place code for your default task here
-  done();
-}
+gulp.task('default', () =>
+    gulp.src('style.css')
+        .pipe(autoprefixer({
+            browsers: ['last 2 versions'],
+            cascade: false
+        }))
+        .pipe(gulp.dest('dist'))
+);
